@@ -1,0 +1,205 @@
+courseId: kurs-treci-ikt
+lang: sr-Cyrl
+title: Рачунарска графика за трећи разред гимназије
+nav_link: https://petlja.org/kurs/487
+description:
+  longDescription: |
+    Овај курс је намењен ученицима 3. разреда гимназије друштвеног и општег смера за предмет Рачунарство и информатика. 
+    У оквиру овог курса детаљно је  обрађенa наставнa темa Рачунарска графика.  
+    Курс у потпуности прати план наставе и учења за овај предмет. Курс је организован по часовима. 
+    Током курса детаљно се изучавају карактеристике рачунарске графике, као и рад у програму за растерску и векторску графику.  
+    Материјал намењен за један час се састоји од лекције и дела са питалицама, којима се ученицима скреће пажња на најбитније 
+    делове из садржаја лекције и квизова, а који има за циљ проверу усвојеног градива.
+    
+    Поред рада у школи, курс се може пролазити и самостално.
+
+    <p>
+    <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.sr_LATN">
+    <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
+    <br />Овај курс Фондација Петља објавила je под лиценцом <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.sr_LATN">Creative Commons Autorstvo 4.0 Međunarodna Licenca (CC BY 4.0)</a>.
+    </p> 
+
+  shortDescription: Рачунарска графика
+  willLearn: # list
+    - да разликујеш векторски и растерски начин представљања слике;
+    - да објасниш предности и недостатке једног и другог начина и одабереш начин који је погоднији за конкретну примену;
+    - о основним типовима формата слика и како да укажеш на разлике међу њима;
+    - да користиш програме за обраду и креирање растерске графике;
+    - да оптимизујеш креирану слику за приказ на различитим медијима;
+    - да примењујеш библиотеке готових цртежа и слика; 
+    - да мењаш и прилагођаваш слику;
+    - да сачуваш слику у другом формату, комбинујеш више слика различитих формата;
+    - да користиш програме за обраду и креирање векторске графике.
+  requirements:
+    - Имаш инсталиран програм за обраду растерске графике Gimp 2
+    - Имаш инсталиран програм за обраду векторске графике Inkspace
+  toc:
+    - Час 1. Увод у рачунарску графику
+    - Час 2. Радно окружење програма за обраду растерске графике
+    - Час 3. Оптимизација слике за штампање и ради објављивања на интернету
+    - Час 4. Практична вежба
+    - Час 5. Обрада растерске слике
+    - Час 6. Практична вежба
+    - Час 7. Радно окружење програма за креирање векторске графике
+    - Час 8. Цртање основних графичких елемената
+    - Час 9. Операције над објектима
+    - Час 10. Практична вежба
+
+lessons:
+  - title: Рачунарска графика
+    folder: 1_rg
+    guid: 18768085-4b63-4f79-80f7-e3384018dc72
+    description: Предлекција
+    activities:
+      - type: reading
+        title: Рачунарска графика
+        file: rac_graf.rst
+        guid: 15e31b5f-2d7d-43fd-b570-4a0d35533133
+  - title: 1. Увод у рачунарску графику
+    folder: 1_uvod
+    guid: 027f52b1-b527-41d1-b376-59cd7b71e1ae
+    description: Прва лекција
+    activities:
+      - type: reading
+        title: Увод у рачунарску графику
+        file: 1_1_cas.rst
+        guid: 4f6e4a93-acca-4092-a735-77e823b3d65b
+      - type: quiz 
+        title: Квиз. Увод у рачунарску графику
+        file: 1_2_kviz.rst
+        guid: 3b6b2de4-c945-4e54-b030-3a338e38bf5a
+  - title: 2. Радно окружење програма за обраду растерске графике
+    folder: 2_program
+    guid: 5310970f-325f-4e86-89ba-9519058218af
+    description:  Друга лекција
+    activities:
+      - type: reading
+        title: Радно окружење програма за обраду растерске графике
+        file: 2_1_uvod.rst
+        guid: 487ca0460-5af8-4394-9f00-a4f64ef576f8
+      - type: reading
+        title: Вежбаоница. Радно окружење програма за обраду растерске графике
+        file: 2_2_vez.rst
+        guid: 643823c3-085c-41bf-9012-63ca170806df
+      - type: quiz 
+        title: Квиз. Радно окружење програма за обраду растерске графике
+        file: 2_3_kviz.rst
+        guid: 768cd015-cdb9-4308-954a-9e0e78290f08
+  - title: 3. Оптимизација слике за штампање и ради објављивања на интернету
+    folder: 3_optimizacija
+    guid: 9ed8ae44-fece-4c02-b6af-89e5091b154f
+    description:  Трећа лекција
+    activities:
+      - type: reading
+        title: Оптимизација слике за штампање и ради објављивања на интернету
+        file: 3_1_cas.rst
+        guid: d48fa8d8-aa59-4cad-a4b6-06357980262a
+      - type: reading
+        title: Вежбаоница. Оптимизација слике за штампање и ради објављивања на интернету
+        file: 3_2_vez.rst
+        guid: 1527382c-5c88-4d98-96ea-4f7488fda370
+      - type: quiz 
+        title: Квиз. Оптимизација слике за штампање и ради објављивања на интернету
+        file: 3_3_kviz.rst
+        description: ...
+        guid: b8052363-3e5b-4551-acbe-8a9b35103bb8
+  - title: 4. Практична вежба
+    folder: 4_vezba
+    guid: 4d7de694-7bc9-4e61-9692-8dea35953d6f
+    description:  Четврта лекција
+    activities:
+      - type: reading
+        title: Практична вежба
+        file: 4_vezba.rst
+        guid: 6829dfa5-c894-447f-b7aa-1dfff51b4be5
+  - title: 5. Обрада растерске слике
+    folder: 5_obrada_raster
+    guid: a1c501ce-6189-45ae-8ec5-37620eaeeb84
+    description:  Пета лекција
+    activities:
+      - type: reading
+        title: Обрада растерске слике
+        file: 5_1_cas.rst
+        guid: 51bd52f3-eab2-4bfe-88ab-2c16ed641e98
+      - type: quiz 
+        title: Квиз. Обрада растерске слике
+        file: 5_2_kviz.rst
+        guid: 93c17a28-95ed-4cbf-8f44-b76226f68b4b
+  - title: 6. Практична вежба
+    folder: 6_vezba
+    guid: be3bd723-29d4-4ed0-abfb-a2651eb6c348
+    description:  Шеста лекција
+    activities:
+      - type: reading
+        title: Практична вежба
+        file: 6_vezba.rst
+        guid: a1e5247c-b7c1-49ae-8c4f-542e6948c30d
+  - title: 7. Радно окружење програма за креирање векторске графике
+    folder: 7_inkscape
+    guid: ed14943a-0a6b-4bdf-ae6a-ef3dda216eca
+    description:  Седма лекција
+    activities:
+      - type: reading
+        title: Радно окружење програма за креирање векторске графике
+        file: 7_1_cas.rst
+        guid: f3498cd9-cffb-4005-a333-b4a5a5e12cbb
+      - type: reading
+        title: Вежбаоница. Радно окружење програма за креирање векторске графике
+        file: 7_2_vez.rst
+        guid: a7e0bdae-f24b-457b-901d-55e7210b64b5
+      - type: quiz 
+        title: Квиз. Радно окружење програма за креирање векторске графике
+        file: 7_3_kviz.rst
+        guid: 9fcf5ed7-959e-49e4-8c49-16826f52b9c5
+  - title: 8. Цртање основних графичких елемената
+    folder: 8_crtanje
+    guid: 755d0cc0-c82f-4646-9100-3687be617602
+    description:  Осма лекција
+    activities:
+      - type: reading
+        title: Цртање основних графичких елемената
+        file: 8_1_cas.rst
+        guid: c6c4bfe2-80a4-4b28-9f89-46c60effb1f2
+      - type: reading
+        title: Вежбаоница. Цртање основних графичких елемената
+        file: 8_2_vez.rst
+        description: #opciono
+        guid: 22814025-8adf-4c4a-aef8-781e5b9d6537
+      - type: quiz 
+        title: Квиз. Цртање основних графичких елемената
+        file: 8_3_kviz.rst
+        guid: 3cb29fd8-4beb-424d-93c3-ef0b87bcacd1
+  - title: 9. Операције над објектима
+    folder: 9_operacije
+    guid: 72ad3b12-10b6-4fa7-8860-d2234b21c510
+    description:  Девета лекција
+    activities:
+      - type: reading
+        title: Операције над објектима
+        file: 9_1_cas.rst
+        description: #opciono
+        guid: 118cf5c9-2c45-4e84-9e36-832e091427b2
+      - type: reading
+        title: Вежбаоница. Операције над објектима
+        file: 9_2_vez.rst
+        description: #opciono
+        guid: e6816810-79e0-4756-830b-1d072c6eea99
+      - type: quiz 
+        title: Квиз. Операције над објектима
+        file: 9_3_kviz.rst
+        guid: d30ec312-d349-4d66-9d33-ff704f826a3e
+  - title: 10. Практична вежба
+    folder: 10_vezba
+    guid: 12acdcfd-a587-4b03-8d73-89deaee7f230
+    description:  Десета лекција
+    activities:
+      - type: reading
+        title: Практична вежба
+        file: 10_vez.rst
+        description: #opciono
+        guid: bdab713b-adc0-44ff-9d38-df39022d7627
+
+
+
+
+
